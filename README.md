@@ -194,16 +194,22 @@ The computed Chebyshev coefficients for $M = 64$ are:
 
 ### *<u>Step 5: Finding the final equation:</u>*
 Therefore, the cubic Chebyshev approximation is:
+</br>
+</br>
+
 $$
 e^x \approx \sum_{n=0}^{3} C_n T_n(2x-1) = C_0T_0(2x-1) + C_1T_1(2x-1) + C_2T_2(2x-1) + C_3T_3(2x-1)
 $$
+
 where,
+
 $$
 C_0 = 1.7533876544,\quad
 C_1 = 0.8503916538,\quad
 C_2 = 0.1052086936,\quad
 C_3 = 0.0087221047
 $$
+
 $$
 T_0(2x-1) = 1, \quad
 T_1(2x-1) = 2x - 1,\quad
@@ -212,6 +218,8 @@ T_3(2x-1) = 32x^3 - 48x^2 + 18x - 1\quad
 $$
 
 Substituting these values, we obtain,
+</br>
+
 $$
 e^x \approx
 0.9994825895
