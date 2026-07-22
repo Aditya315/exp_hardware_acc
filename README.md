@@ -245,6 +245,8 @@ The resulting polynomial coefficients are:
 </div>
 
 Hence,
+</br>
+
 $$
     e^x \approx a_0 + a_1x + a_2x^2 + a_3x^3
 $$
