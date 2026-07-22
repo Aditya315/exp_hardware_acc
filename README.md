@@ -14,7 +14,7 @@
 </br>
 
 $$
-    x\_IntFrac = x\_IntPart \quad + \quad x\_FracPart
+    x\_{IntFrac} = x\_{IntPart} \quad + \quad x\_{FracPart}
 $$
 
 
@@ -333,7 +333,7 @@ For comparison, the cubic Chebyshev approximation on $[0,1]$ uses:
 </div>
 
 ### Error Analysis:
-In order to compare, test stimulus are given for $x\_IntFrac \in [0,1)$ 
+In order to compare, test stimulus are given for $x\_{IntFrac} \in [0,1)$ 
 
 
 <div align="center">
