@@ -11,13 +11,15 @@
 </br>
 
 *<b>Stage 1: LUT and parallel Estrin terms</b>*
+</br>
+
 $$
     x\_IntFrac = x\_IntPart \quad + \quad x\_FracPart
 $$
 
 
 $$
-    e^{x\_IntPart} = \text{LUT}(x\_IntPart)
+    e^{x\_{IntPart}} = \text{LUT}(x\_{IntPart})
 $$
 
 $$
@@ -27,13 +29,13 @@ $$
 *<b>Stage 2: Combine fractional approximation</b>*
 
 $$
-    e^{x\_FracPart} = term_0 + term_1 \times term_2
+    e^{x\_{FracPart}} = term_0 + term_1 \times term_2
 $$
 
 *<b>Stage 3: Final result</b>*
 
 $$
-    e^{x\_IntFrac} = e^{x\_IntPart} \times e^{x\_FracPart}
+    e^{x\_{IntFrac}} = e^{x\_{IntPart}} \times e^{x\_{FracPart}}
 $$
 
 ## 2. Objectives
@@ -106,7 +108,7 @@ $$
 To map the Chebyshev variable $t\in[-1,1]$ to a normalized variable $x\in[0,1]$, linear transformation is used,
 
 $$
-t = a\,x + b.
+t = a \cdot x + b
 $$
 
 When $t=-1$ at $x=0$:
@@ -265,6 +267,8 @@ $$
 This requires two multiplications and parallel computation stages instead of cascading the operations sequentially.
 
 Here,
+</br>
+
 $$
 term_0 = a_0 + a_1 x,\quad
 term_1 = x*x,\quad
